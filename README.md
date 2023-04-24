@@ -4,6 +4,7 @@ Note that the parameter/variable notations in the scripts and in the files diffe
  
 
 Motivation
+
 The numerous combinations of bacterial species and strains, plasmids, and environments claim a robust elucidatory mechanism of plasmid maintenance. 
 Our previous work has shown that donor cells already adapted to the plasmid may use the plasmid as a 'weapon' to compete with non-adapted plasmid-free cells. Computer 
 simulations corroborated this hypothesis with a wide range of parameters. In the previous work we considered that compensatory mutations exist in transconjugant 
@@ -23,6 +24,7 @@ generations. If this transconjugant bacterium passes the plasmid to a new recipi
 occur. When compensatory mutation occurs, the new bacteria receiving that plasmid and their offspring no longer have any associated costs.
 
 Model
+
 The flow of the model is as follows:
 - Random distribution of bacteria in the user-defined recipient/donor ratio on a 1000X1000 space grid (script "bacteria_distribution").
 - Random choice of a bacterium (which may be donor, transconjugant, recipient or segregated)
@@ -36,6 +38,7 @@ script "cycles.py").
 
 
 Repository
+
 The repository is composed by three folders. 
 The folder "Code - compensatory mutation in plasmid", has the code of the model considering that compensatory mutation occurs in the plasmid. 
 To run the program, we use the script "program.py", where we can define the variables we want to test. This script uses the other scripts placed in the folder.
